@@ -1,9 +1,8 @@
-function checkAnagram(str1, str2){
-var alpha=str1.split("").sort().join("");
+function checkAnagram(str1, str2) {
 
-  if(alpha===str2.split("").sort().join("");)
-console.log("yes, both strings are anagrams !!")
-  
+    if (str1.split("").sort().join(""); === str2.split("").sort().join("");)
+        console.log("yes, both strings are anagrams !!")
+
     else
-console.log("no, strings are not anagrams !!")
-  }
+        console.log("no, strings are not anagrams !!")
+}
